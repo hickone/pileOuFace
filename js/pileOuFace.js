@@ -12,16 +12,22 @@
       valeur = Math.floor(Math.random() * 2) + 1;
       console.log(valeur);
       if (valeur === 1) {
-        console.log("pile");
+        $( "#message" ).text( "Pile" );
       }
       else if (valeur === 2) {
-        console.log("face");
+        $( "#message" ).text( "Face" );
       }
+  }
+
+  function addClick(){
+    $('button').click(function(){
+      pileOuFace();
+    });
   }
 
 
   $(document).ready(function() {
-      pileOuFace();
+      addClick();
     });
 
 
