@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: arial,helvetica;
 }
 
 *, *:before, *:after {
@@ -22,13 +23,36 @@ body{
   text-align: center;
   margin: 50px;}
 
+<<<<<<< HEAD
 #message{
   background:#34495e;
+=======
+#Message{
+  background:#34495e url('http://www.leblogdukitsch.com/wp-content/uploads/2010/10/gif_kitsch_licorne2.gif');
+>>>>>>> cbd8d71fb527f61f7a90cccef62cd192d2c151ec
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2rem;
-  padding: 50px;
+  padding: 150px;
   margin: 50px auto;
   width: 80%;
+  text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 2em;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 1rem;
+  background-color: #f1c40f;
+  border: none;
+}
+
+button:focus {
+  outline: none
 }
