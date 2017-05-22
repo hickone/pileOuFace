@@ -23,13 +23,8 @@ body{
   text-align: center;
   margin: 50px;}
 
-<<<<<<< HEAD
 #message{
-  background:#34495e;
-=======
-#Message{
   background:#34495e url('http://www.leblogdukitsch.com/wp-content/uploads/2010/10/gif_kitsch_licorne2.gif');
->>>>>>> cbd8d71fb527f61f7a90cccef62cd192d2c151ec
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
