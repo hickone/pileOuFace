@@ -22,6 +22,7 @@
   function addClick(){
     $('button').click(function(){
       pileOuFace();
+      $('body').addClass('background-gif');
     });
   }
 
